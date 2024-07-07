@@ -3,8 +3,8 @@
         "question": "Nel linguaggio “R”, una lista (list) può contenere elementi...",
         "answers": {
 	    "a":"di tipo e classe anche diversi per ogni elemento.",
-            "B": "esclusivamente appartenenti alla stessa classe.",
-            "C": "in “R” non esiste il concetto di lista." 
+            "b": "esclusivamente appartenenti alla stessa classe.",
+            "c": "in “R” non esiste il concetto di lista."
         },
         "correctAnswer": "a"
     },
@@ -119,8 +119,8 @@
     {
         "question": "Nel campo dell'inferenza statistica cosa si intende per ipotesi alternativa?",
         "answers": {
-            "a": "L'ipotesi posta a test in alternativa all'ipotesi nulla.",
-            "b": "Una caratteristica della popolazione che non è associabile a nessun individuo.",
+            "a": "Una caratteristica della popolazione che non è associabile a nessun individuo.",
+            "b": "L'ipotesi posta a test in alternativa all'ipotesi nulla.",
             "c": "L'ipotesi messa a test la cui probabilità è uguale a quella dell'ipotesi nulla."
         },
         "correctAnswer": "b"
@@ -128,9 +128,9 @@
     {
         "question": "Nel campo dell'inferenza statistica cosa rappresenta l'errore di seconda specie?",
         "answers": {
-            "a": "L'errore che si commette accettando l'ipotesi alternativa quando questa è falsa.",
-            "b": "L'errore che si commette accettando l'ipotesi nulla quando questa è falsa.",
-            "c": "L'errore che si commette nel calcolo della probabilità di due eventi indipendenti."
+            "a": "L'errore che si commette nel calcolo della probabilità di due eventi indipendenti.",
+            "b": "L'errore che si commette accettando l'ipotesi alternativa quando questa è falsa.",
+            "c": "L'errore che si commette accettando l'ipotesi nulla quando questa è falsa."
         },
         "correctAnswer": "c"
     },
@@ -155,8 +155,8 @@
     {
         "question": "Quale caratteristica di una distribuzione denota la seguente espressione:",
         "answers": {
-            "a": "Media aritmetica.",
-            "b": "Media geometrica.",
+            "a": "Media geometrica.",
+            "b": "Media aritmetica.",
             "c": "Covarianza."
         },
         "correctAnswer": "b"
@@ -240,7 +240,7 @@
             "b": "Per evitare che residui positivi e negativi si compensino tra loro.",
             "c": "Per approssimare l'errore ad una parabola."
         },
-        "correctAnswer": "a"
+        "correctAnswer": "b"
     },
     {
         "question": "Nella fase di pre-elaborazione dei dati, quale delle seguenti affermazioni è corretta in riferimento alla presenza di dati mancanti?",
@@ -263,8 +263,8 @@
     {
         "question": "Nell'algoritmo K-Means un centroide rappresenta…",
         "answers": {
-            "a": "il valore medio tra i cluster.",
-            "b": "il valore medio tra tutti i dati analizzati.",
+            "a": "il valore medio tra tutti i dati analizzati.",
+            "b": "il valore medio tra i cluster.",
             "c": "il punto medio o baricentro di un cluster."
         },
         "correctAnswer": "c"
@@ -272,8 +272,8 @@
     {
         "question": "L'algoritmo di backpropagation…",
         "answers": {
-            "a": "richiede un interazione con l'ambiente.",
-            "b": "non richiede dati etichettati.",
+            "a": "non richiede dati etichettati.",
+            "b": "richiede un interazione con l'ambiente.",
             "c": "viene applicato in presenza di dati etichettati."
         },
         "correctAnswer": "c"
@@ -290,9 +290,9 @@
     {
         "question": "Per quali tra queste applicazioni non risulta appropriato l'utilizzo di tecniche di Social Network Analysis?",
         "answers": {
-            "a": "Realizzare un modello di propagazione di un'epidemia.",
-            "b": "Identificare gruppi di soggetti che effettuano transazioni commerciali tra di loro.",
-            "c": "Analizzare la serie storica delle vendite in relazione ad un insieme di clienti."
+            "a": "Analizzare la serie storica delle vendite in relazione ad un insieme di clienti.",
+            "b": "Realizzare un modello di propagazione di un'epidemia.",
+            "c": "Identificare gruppi di soggetti che effettuano transazioni commerciali tra di loro."
         },
         "correctAnswer": "a"
     },
@@ -300,17 +300,17 @@
         "question": "Nell'ambito del text mining quale delle seguenti operazioni è frequentemente eseguita nella fase di preprocessing dei testi?",
         "answers": {
             "a": "Trasformazione del testo in minuscolo.",
-            "b": "La lettura automatizzata del testo da un'immagine.",
-            "c": "Imputazione dei valori mancanti."
+            "b": "Imputazione dei valori mancanti.",
+            "c": "La lettura automatizzata del testo da un'immagine."
         },
         "correctAnswer": "a"
     },
     {
         "question": "Come si chiama l’applicazione del text mining finalizzata all'analisi delle opinioni sui social network?",
         "answers": {
-            "a": "Sentiment analysis.",
-            "b": "Social analysis.",
-            "c": "Posts analysis."
+            "a": "Social analysis.",
+            "b": "Posts analysis.",
+            "c": "Sentiment analysis."
         },
         "correctAnswer": "c"
     },
@@ -326,11 +326,11 @@
     {
         "question": "Quale delle seguenti affermazioni sulla qualità dei dati è falsa?",
         "answers": {
-            "a": "Gli aspetti relativi alla qualità non sono mai misurabili in termini quantitativi.",
-            "b": "Le dimensioni di qualità sono definite in appositi standard.",
-            "c": "Accuratezza, completezza e tempestività sono dimensioni di qualità."
-        },
-        "correctAnswer": "a"
+            "a": "Accuratezza, completezza e tempestività sono dimensioni di qualità.",
+            "b": "Gli aspetti relativi alla qualità non sono mai misurabili in termini quantitativi.",
+            "c": "Le dimensioni di qualità sono definite in appositi standard."
+            },
+        "correctAnswer": "b"
     },
     {
         "question": "Nell'ambito della qualità dei dati, la dimensione di consistenza di un dataset si riferisce…",
@@ -344,18 +344,19 @@
     {
         "question": "Quali delle seguenti caratteristiche non attiene alla qualità dei dati?",
         "answers": {
-            "a": "Distorsione.",
-            "b": "Completezza.",
-            "c": "Consistenza."
+            "a": "Completezza.",
+            "b": "Consistenza.",
+            "c": "Distorsione."
+
         },
         "correctAnswer": "c"
     },
     {
         "question": "Un dataset in cui il 50% dei valori è mancante, è caratterizzato da un basso valore di…",
         "answers": {
-            "a": "completezza.",
+            "a": "consistenza.",
             "b": "fruibilità.",
-            "c": "consistenza."
+            "c": "completezza."
         },
         "correctAnswer": "c"
     }
