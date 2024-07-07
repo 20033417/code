@@ -1,6 +1,6 @@
 [
     {
-        "question": "Nel linguaggio “R”, una lista (list) può contenere elementi...,
+        "question": "Nel linguaggio “R”, una lista (list) può contenere elementi...",
         "answers": {
 	    "a":"di tipo e classe anche diversi per ogni elemento.",
             "B": "esclusivamente appartenenti alla stessa classe.",
