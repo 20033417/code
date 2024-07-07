@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const loadQuiz1Button = document.getElementById('loadQuiz1');
     const loadQuiz2Button = document.getElementById('loadQuiz2');
     const loadQuiz3Button = document.getElementById('loadQuiz3');
+    const toggleModeButton = document.getElementById('toggleMode');
     let myQuestions = [];
 
     function fetchJSON(filename) {
@@ -90,8 +91,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    function toggleMode() {
+        document.body.classList.toggle('night-mode');
+        document.body.classList.toggle('day-mode');
+    }
+
     loadQuiz1Button.addEventListener('click', () => loadQuestions('domande.json'));
     loadQuiz2Button.addEventListener('click', () => loadQuestions('domande2.json'));
     loadQuiz3Button.addEventListener('click', () => loadQuestions('domande3.json'));
     submitButton.addEventListener('click', showResults);
+    toggleModeButton.addEventListener('click', toggleMode);
 });
