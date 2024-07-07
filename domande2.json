@@ -51,7 +51,7 @@
         "b": "Solo in Python.",
         "c": "Sia in R che in Python."
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "question": "In quali strutture sono archiviati i dati in un database relazionale?",
@@ -69,7 +69,7 @@
         "b": "A e B possono avere colonne di tipo diverso in posizione coincidente.",
         "c": "A e B possono avere numero di colonne diverso."
       },
-      "correctAnswer": "c"
+      "correctAnswer": "a"
     },
     {
       "question": "Data una tabella IVA avente le colonne codice_fiscale, codice_attivita, volume_affari, quale espressione SQL restituisce il totale del volume d’affari per codice attivita?",
@@ -78,7 +78,7 @@
         "b": "SELECT ADD(volume_affari)\nFROM IVA\nGROUP BY codice_attivita",
         "c": "SELECT SUM(volume_affari)\nFROM IVA\nGROUP BY codice_attivita"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "question": "La seguente espressione SQL\nSELECT *\nFROM Impiegati RIGHT JOIN Dipartimenti\n ON Impiegati.ID_dipartimento = Dipartimenti.ID_dipartimento\nrestituisce...",
@@ -123,7 +123,7 @@
         "b": "Ipotesi esatta e ipotesi errata.",
         "c": "Ipotesi nulla e ipotesi alternativa."
       },
-      "correctAnswer": "b"
+      "correctAnswer": "c"
     },
     {
       "question": "Nell'ambito dell'inferenza statistica quali sono le specie di errore che si possono commettere nella verifica delle ipotesi?",
@@ -132,7 +132,7 @@
         "b": "Di misura e di copertura.",
         "c": "Campionario e non campionario."
       },
-      "correctAnswer": "c"
+      "correctAnswer": "a"
     },
     {
       "question": "Nell'ambito dell'inferenza statistica quale delle seguenti NON è una proprietà degli stimatori?",
@@ -150,7 +150,7 @@
         "b": "Test t di Student.",
         "c": "Metodo di Gauss."
       },
-      "correctAnswer": "b"
+      "correctAnswer": "c"
     },
     {
       "question": "Quale caratteristica di una distribuzione denota la seguente espressione:",
@@ -159,7 +159,7 @@
         "b": "Media.",
         "c": "Covarianza."
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "question": "Quali dei seguenti metodi nell'ambito del machine learning necessita di dati etichettati?",
@@ -177,176 +177,176 @@
         "b": "I dati su cui opera necessitano di etichettamento.",
         "c": "La possibile difficoltà di interpretazione dei cluster individuati."
       },
-      "correctAnswer": "b"
+      "correctAnswer": "c"
     },
     {
       "question": "Nell'ambito dell'intelligenza artificiale, quale delle seguenti è una tecnica di apprendimento?",
       "answers": {
-        "a": "Apprendimento supervisionato.",
-        "b": "Apprendimento non supervisionato.",
-        "c": "Entambi i precedenti."
+        "a": "Apprendimento induttivo.",
+        "b": "Apprendimento per analisi",
+        "c": "Apprendimento con rinforzo."
       },
       "correctAnswer": "c"
     },
     {
       "question": "Quale tipo di machine learning viene solitamente utilizzato per effettuare il clustering dei dati?",
       "answers": {
-        "a": "Machine learning supervisionato.",
-        "b": "Machine learning non supervisionato.",
-        "c": "Machine learning semi-supervisionato."
+        "a": "Apprendimento con rinforzo",
+        "b": "Apprendimento non supervisionato.",
+        "c": "Apprendimento supervisionato."
       },
       "correctAnswer": "b"
     },
     {
       "question": "Quale tipo di machine learning viene solitamente utilizzato per effettuare la riduzione dimensionale dei dati?",
       "answers": {
-        "a": "Machine learning supervisionato.",
-        "b": "Machine learning non supervisionato.",
-        "c": "Machine learning semi-supervisionato."
+        "a": "Apprendimento supervisionato.",
+        "b": "Apprendimento con rinforzo.",
+        "c": "Apprendimento non supervisionato."
       },
       "correctAnswer": "c"
     },
     {
       "question": "Quale dei seguenti è un tipo di modello di apprendimento supervisionato?",
       "answers": {
-        "a": "Regressione lineare.",
-        "b": "K-Means clustering.",
-        "c": "Principal Component Analysis (PCA)."
+        "a": "Compensazione.",
+        "b": "Etichettamento",
+        "c": "Regressione"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "question": "Nel metodo di regressione lineare…",
       "answers": {
-        "a": "Si cerca di minimizzare la somma dei quadrati dei residui.",
-        "b": "Si cerca di massimizzare la bontà di adattamento del modello.",
-        "c": "Si cerca di massimizzare la varianza dei residui."
+        "a": " Si stimano i coefficienti delle variabili dipendenti che forniscono la migliore approssimazione della relazione lineare con la variabile indipendente.",
+        "b": "Si stimano i coefficienti delle variabili indipendenti che forniscono la migliore approssimazione della relazione lineare con la variabile dipendente.",
+        "c": "si stimano i coefficienti delle variabili indipendenti e dipendenti che massimizzano una relazione lineare"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "b"
     },
     {
       "question": "Quale informazione sulla bontà di un modello di regressione lineare è fornita dalla somma dei quadrati dei residui?",
       "answers": {
-        "a": "La misura della varianza non spiegata dal modello.",
-        "b": "La misura della varianza spiegata dal modello.",
-        "c": "La misura della bontà complessiva del modello."
+        "a": "Minore è questo valore, minore è l'errore che il modello di predizione commette",
+        "b": "Maggiore è questo valore, minore è l'errore che il modello di predizione commette",
+        "c": " Minore è questo valore, maggiore è l'errore che il modello di predizione commette"
       },
       "correctAnswer": "a"
     },
     {
       "question": "Il bootstrap è…",
       "answers": {
-        "a": "Una tecnica per ottenere intervalli di confidenza.",
-        "b": "Una tecnica per ottenere stime della varianza dei parametri di un modello.",
-        "c": "Una tecnica per ridurre l'overfitting nei modelli di machine learning."
+        "a": "un metodo di individuazione degli outlier.",
+        "b": "un metodo di ricampionamento.",
+        "c": "un algoritmo per la cluster analysis."
       },
       "correctAnswer": "b"
     },
     {
       "question": "Nell'ambito dell'analisi dei dati cosa si intende per outlier?",
       "answers": {
-        "a": "Un valore anomalo che si discosta significativamente dagli altri nel dataset.",
-        "b": "Un valore mancante nel dataset.",
-        "c": "Un valore che si trova esattamente al centro del dataset."
+        "a": "Un dato sentinella per verificare se il modello di stima funziona correttamente.",
+        "b": "Un dato chiave del set di dati da cui far partire l'algoritmo di stima.",
+        "c": "Un dato anomalo e distante dai dati presenti nel dataset."
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "question": "L’accuratezza di un modello predittivo dovrebbe essere valutata…",
       "answers": {
-        "a": "In base alla sua capacità di fare previsioni corrette su nuovi dati.",
-        "b": "In base alla sua capacità di minimizzare l'errore sui dati di training.",
-        "c": "In base alla sua complessità."
+        "a": "Sul test set",
+        "b": "sull’insieme di tutti i dati a disposizione.",
+        "c": "sul training set"
       },
       "correctAnswer": "a"
     },
     {
       "question": "L'algoritmo K-Means si pone come obiettivo…",
       "answers": {
-        "a": "Massimizzare l'omogeneità all'interno dei cluster e minimizzare l'eterogeneità tra i cluster.",
-        "b": "Minimizzare l'omogeneità all'interno dei cluster e massimizzare l'eterogeneità tra i cluster.",
-        "c": "Ridurre il numero di cluster."
+        "a": "minimizzare la varianza tra i diversi cluster.",
+        "b": "minimizzare la varianza all'interno di uno stesso cluster.",
+        "c": "minimizzare il numero di cluster."
       },
-      "correctAnswer": "a"
+      "correctAnswer": "b"
     },
     {
       "question": "Per cosa viene utilizzato l'algoritmo di backpropagation nell'ambito delle reti neurali?",
       "answers": {
-        "a": "Per calcolare e aggiornare i pesi delle connessioni tra i neuroni.",
-        "b": "Per inizializzare i pesi delle connessioni tra i neuroni.",
-        "c": "Per scegliere la funzione di attivazione dei neuroni."
+        "a": "A calcolare i pesi di una rete neurale a partire dai dati.",
+        "b": "A disegnare la struttura della rete neurale.",
+        "c": "A calcolare a ritroso gli input a partire dagli output."
       },
       "correctAnswer": "a"
     },
     {
       "question": "Quale di queste operazioni è tipicamente parte di un processo di analisi del linguaggio naturale?",
       "answers": {
-        "a": "Identificazione delle parole chiave.",
-        "b": "Implementazione di algoritmi di criptazione.",
-        "c": "Gestione dei database."
+        "a": "ll conteggio della punteggiatura",
+        "b": "La compressione dei file di testo da analizzare",
+        "c": " Il conteggio delle occorrenze delle parole presenti nel testo"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "question": "Quale tra i seguenti concetti non è legato alla teoria dei grafi?",
       "answers": {
-        "a": "Algoritmo di clustering.",
-        "b": "Algoritmo di ordinamento topologico.",
-        "c": "Algoritmo di codifica Huffman."
+        "a": "Apice",
+        "b": "Collegamento",
+        "c": "Nodo"
       },
       "correctAnswer": "a"
     },
     {
       "question": "Nell'ambito del text mining, le stopword indicano…",
       "answers": {
-        "a": "Le parole chiave più importanti nel testo.",
-        "b": "Le parole che vengono comunemente escluse dall'analisi per il loro alto numero di occorrenze.",
-        "c": "Le parole che vengono aggiunte automaticamente al testo durante la fase di analisi."
+        "a": "dei termini che separano diverse frasi",
+        "b": "dei termini che non devono essere considerati nell'analisi perché non rilevanti.",
+        "c": "dei termini che fanno interrompere l'analisi del testo."
       },
       "correctAnswer": "b"
     },
     {
       "question": "Quale delle seguenti NON è una tipica applicazione del text-mining?",
       "answers": {
-        "a": "Sentiment analysis.",
-        "b": "Data clustering.",
-        "c": "Named entity recognition."
+        "a": "Supporto clienti",
+        "b": "Predizione dell'andamento delle vendite",
+        "c": "Monitoraggio dei social media."
       },
       "correctAnswer": "b"
     },
     {
       "question": "In un grafo, il grado di un nodo è definito come…",
       "answers": {
-        "a": "Il numero di archi incidenti su quel nodo.",
-        "b": "La dimensione del nodo nel grafo.",
-        "c": "La distanza del nodo dal nodo centrale."
+        "a": "il numero di connessioni con altri nodi.",
+        "b": "il numero di attributi connessi al nodo.",
+        "c": " la distanza media da tutti gli altri nodi."
       },
       "correctAnswer": "a"
     },
     {
       "question": "Per determinare il livello di qualità dei dati in un'organizzazione…",
       "answers": {
-        "a": "È necessario valutare la precisione, la completezza, la coerenza e la tempestività dei dati.",
-        "b": "È necessario valutare la quantità di dati presenti.",
-        "c": "È sufficiente verificare la provenienza dei dati."
+        "a": "è sufficiente fornire delle valutazioni qualitative.",
+        "b": "È necessario definire delle metriche",
+        "c": "esiste un insieme standard di metriche adatto a qualsiasi contesto."
       },
-      "correctAnswer": "a"
+      "correctAnswer": "b"
     },
     {
       "question": "Nell'ambito della qualità dei dati, la dimensione di accuratezza di un dataset indica…",
       "answers": {
-        "a": "In che misura i dati sono vicini alla realtà.",
-        "b": "In che misura i dati sono completi.",
-        "c": "In che misura i dati sono coerenti."
+        "a": "il livello in cui i dati descrivono correttamente il corrispondente oggetto del mondo reale a cui si riferiscono.",
+        "b": "la percentuale di dati valorizzati rispetto alla popolazione di riferimento.",
+        "c": "la precisione dei formati numerici."
       },
       "correctAnswer": "a"
     },
     {
       "question": "Quali delle seguenti caratteristiche attiene alla qualità dei dati?",
       "answers": {
-        "a": "Precisione, completezza, coerenza, tempestività.",
-        "b": "Dimensione, colore, forma, texture.",
-        "c": "Stile, dimensione, font, posizione."
+        "a": "Completezza.",
+        "b": "Distorsione",
+        "c": "Variabilità"
       },
       "correctAnswer": "a"
     },
@@ -354,8 +354,8 @@
       "question": "In un dataset anagrafico, la presenza nell’attributo \"nome di persona\" del valore “Giusepe” incide sulla dimensione di qualità…",
       "answers": {
         "a": "Completezza.",
-        "b": "Precisione.",
-        "c": "Coerenza."
+        "b": "Accuratezza",
+        "c": "Consistenza."
       },
       "correctAnswer": "b"
     }
