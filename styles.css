@@ -9,6 +9,18 @@ body {
     margin: 0 auto;
 }
 
+/* Modalità giorno */
+body.day-mode {
+    background-color: #ffffff; /* Colore di sfondo chiaro per la modalità giorno */
+    color: #000000; /* Colore del testo scuro per la modalità giorno */
+}
+
+/* Modalità notte */
+body.night-mode {
+    background-color: #121212; /* Colore di sfondo scuro per la modalità notte */
+    color: #e0e0e0; /* Colore del testo chiaro per la modalità notte */
+}
+
 button {
     display: inline-block; /* Modificato da block a inline-block per adattarsi al contenuto */
     margin-top: 20px;
@@ -34,6 +46,12 @@ button:hover {
     border: 1px solid #ddd; /* Bordo sottile intorno al box delle domande */
     border-radius: 8px; /* Bordi arrotondati per il box delle domande */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per il box delle domande */
+}
+
+body.night-mode .question {
+    background-color: #1e1e1e; /* Colore di sfondo per il box delle domande nella modalità notte */
+    border: 1px solid #333; /* Bordo sottile intorno al box delle domande nella modalità notte */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Ombra leggera per il box delle domande nella modalità notte */
 }
 
 .answers {
@@ -62,8 +80,16 @@ input[type="radio"] {
     padding-top: 20px;
 }
 
+body.night-mode #results {
+    border-top: 1px solid #444; /* Modificato colore del bordo per la modalità notte */
+}
+
 #results h2 {
     margin-top: 10px;
     font-size: 18px;
     color: #333; /* Colore del testo modificato */
+}
+
+body.night-mode #results h2 {
+    color: #fff; /* Colore del testo modificato per la modalità notte */
 }
