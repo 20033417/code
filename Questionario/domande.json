@@ -1,0 +1,362 @@
+[
+    {
+        "question": "Nel linguaggio “R”, una lista (list) può contenere elementi...,
+        "answers": {
+	    "a":"di tipo e classe anche diversi per ogni elemento.",
+            "B": "esclusivamente appartenenti alla stessa classe.",
+            "C": "in “R” non esiste il concetto di lista.",
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Con riferimento al linguaggio \"R\", qual è il nome della struttura dati utilizzata per memorizzare dati in formato tabellare, con colonne di tipo diverso?",
+        "answers": {
+            "a": "Table.",
+            "b": "Data frame.",
+            "c": "Dataset."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Le funzionalità del linguaggio R sono suddivise in una serie di …",
+        "answers": {
+            "a": "Libraries.",
+            "b": "Packages.",
+            "c": "Objects."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "In Python, i blocchi di codice vengono delimitati attraverso…",
+        "answers": {
+            "a": "indentazione.",
+            "b": "parentesi graffe.",
+            "c": "parole chiave begin / end."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In Python, se una lista (list) chiamata “Vettore” contiene 8 elementi, quale, tra i seguenti fa riferimento al secondo elemento della lista “Vettore”?",
+        "answers": {
+            "a": "Vettore[1].",
+            "b": "Vettore[2].",
+            "c": "Vettore[-3]."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In quale linguaggio di programmazione la seguente espressione è sintatticamente corretta\na=[1,2,3]",
+        "answers": {
+            "a": "Sia in R che in Python.",
+            "b": "Solo in R.",
+            "c": "Solo in Python."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Che cosa è un entity-relationship diagram (diagramma entità-relazione)?",
+        "answers": {
+            "a": "È una tecnica di modellizzazione dei dati che crea una rappresentazione grafica delle entità e delle relazioni tra le entità a livello concettuale.",
+            "b": "È una tecnica di modellizzazione dei dati che crea una rappresentazione grafica delle entità e delle relazioni tra le entità a livello fisico.",
+            "c": "È una tecnica di modellizzazione dei dati che indica le relazioni tra entità e oggetti esterni."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In SQL, l’applicazione dell'operatore UNION tra due result set A e B richiede che…",
+        "answers": {
+            "a": "A e B abbiano la chiave primaria in comune.",
+            "b": "A e B abbiano stesso numero di colonne anche di tipo diverso.",
+            "c": "A e B abbiano stessa struttura dati."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Considerando una tabella IVA che comprende 5.000.000 di righe (una per un valore distinto della colonna codice_fiscale) e con una colonna codice_attivita che assume 1.207 valori distinti, da cosa è costituito il result set ritornato dalla seguente espressione SQL:\nSELECT COUNT DISTINCT codice_fiscale\nFROM IVA\nGROUP BY codice_attivita",
+        "answers": {
+            "a": "1 riga.",
+            "b": "1.207 righe.",
+            "c": "5.000.000 righe."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Date due tabelle A e B di un database relazionale, l’operazione di INNER JOIN tra A e B restituisce…",
+        "answers": {
+            "a": "solo le colonne di A e B che hanno una chiave in comune.",
+            "b": "solo le righe di A e B che hanno una chiave in comune.",
+            "c": "tutte le righe di A e B."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Quale dei seguenti comandi deve essere usato, in SQL, per eliminare un attributo (ATT) da una tabella (RT)?",
+        "answers": {
+            "a": "alter table RT drop column ATT;",
+            "b": "alter table RT delete column ATT;",
+            "c": "alter table ATT drop column RT;"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In SQL, con riferimento alla tabella in figura, che effetto avrà questa espressione?\nDELETE FROM Indirizzo\n WHERE Citta = 'Genova';",
+        "answers": {
+            "a": "Verrà eliminata la prima riga della tabella.",
+            "b": "Verrà eliminata la tutta la tabella Indirizzo.",
+            "c": "Verrà eliminato il valore del campo Città della prima riga della tabella."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Cosa si deve creare, in un database relazionale, per creare una relazione \"molti a molti\" tra due tabelle?",
+        "answers": {
+            "a": "Una tabella.",
+            "b": "Una vista.",
+            "c": "Un nuovo attributo in ciascuna delle due tabelle."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Nel campo dell'inferenza statistica cosa si intende per ipotesi alternativa?",
+        "answers": {
+            "a": "L'ipotesi posta a test in alternativa all'ipotesi nulla.",
+            "b": "Una caratteristica della popolazione che non è associabile a nessun individuo.",
+            "c": "L'ipotesi messa a test la cui probabilità è uguale a quella dell'ipotesi nulla."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Nel campo dell'inferenza statistica cosa rappresenta l'errore di seconda specie?",
+        "answers": {
+            "a": "L'errore che si commette accettando l'ipotesi alternativa quando questa è falsa.",
+            "b": "L'errore che si commette accettando l'ipotesi nulla quando questa è falsa.",
+            "c": "L'errore che si commette nel calcolo della probabilità di due eventi indipendenti."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Nel campo dell'inferenza statistica quale delle seguenti NON è una proprietà degli stimatori?",
+        "answers": {
+            "a": "Ammissibilità.",
+            "b": "Correttezza.",
+            "c": "Efficienza."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In statistica, quale metodo è utilizzato per valutare l'indipendenza di due variabili aleatorie?",
+        "answers": {
+            "a": "Test t di Student.",
+            "b": "Metodo del chi-quadro.",
+            "c": "Metodo di Gauss."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Quale caratteristica di una distribuzione denota la seguente espressione:",
+        "answers": {
+            "a": "Media aritmetica.",
+            "b": "Media geometrica.",
+            "c": "Covarianza."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Quali dei seguenti metodi esamina i dati attuali e storici allo scopo di prevedere eventi futuri?",
+        "answers": {
+            "a": "Analisi predittiva.",
+            "b": "Analisi non supervisionata.",
+            "c": "Analisi stocastica."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "I modelli di apprendimento non supervisionato…",
+        "answers": {
+            "a": "vengono utilizzati per trovare nei dati forme di organizzazione e di rappresentazione a partire da un dataset etichettato.",
+            "b": "vengono utilizzati per trovare nei dati forme di organizzazione e di rappresentazione precedentemente note.",
+            "c": "vengono utilizzati per trovare nei dati forme di organizzazione e di rappresentazione precedentemente sconosciute."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "I metodi di apprendimento con rinforzo…",
+        "answers": {
+            "a": "includono le tecniche di clustering.",
+            "b": "non prevedono una alimentazione preliminare con dati etichettati.",
+            "c": "prevedono una alimentazione preliminare con dati etichettati."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Quale tipologia di machine learning richiede necessariamente un set di dati etichettati?",
+        "answers": {
+            "a": "Apprendimento con rinforzo.",
+            "b": "Apprendimento non supervisionato.",
+            "c": "Apprendimento supervisionato."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Quale dei seguenti affermazioni rispetto all'uso dei metodi di apprendimento con rinforzo è corretta?",
+        "answers": {
+            "a": "L'agente inizialmente adotta scelte spesso errate.",
+            "b": "L'agente necessita di un ambiente su cui apprendere pre-caricato con dati storici.",
+            "c": "L'agente fin da subito adotta scelte sempre corrette."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Quale tra i seguenti NON è un tipo di modello di apprendimento supervisionato?",
+        "answers": {
+            "a": "Classificazione.",
+            "b": "Ad agente e stato.",
+            "c": "Regressione."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "La regressione lineare nell'apprendimento supervisionato consiste…",
+        "answers": {
+            "a": "nel calcolo di una relazione che massimizza la correlazione lineare tra i predittori.",
+            "b": "nella ricerca della retta che congiunge i dati di input del dataset.",
+            "c": "nella ricerca di una relazione lineare fra i predittori e la variabile di risposta."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Nel metodo di regressione lineare cosa rappresentano i residui?",
+        "answers": {
+            "a": "Lo scostamento tra il valore reale ed il valore predetto.",
+            "b": "L'insieme dei punti scartati dal set di apprendimento.",
+            "c": "I coefficienti dell'equazione lineare che non sono presi in considerazione dal modello predittivo."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Perché nei metodi per verificare la bontà di un modello di regressione lineare si considerano i quadrati dei residui?",
+        "answers": {
+            "a": "Per ridurre la distorsione della stima.",
+            "b": "Per evitare che residui positivi e negativi si compensino tra loro.",
+            "c": "Per approssimare l'errore ad una parabola."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Nella fase di pre-elaborazione dei dati, quale delle seguenti affermazioni è corretta in riferimento alla presenza di dati mancanti?",
+        "answers": {
+            "a": "Tutti i dati mancanti devono essere rimpiazzati con un dato stimato.",
+            "b": "Tutti i record contenenti dati mancanti devono essere necessariamente esclusi.",
+            "c": "Si possono modificare i dati inserendo al posto dei dati mancanti delle medie o dei valori stimati."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Un albero di classificazione si usa quando la variabile risposta è…",
+        "answers": {
+            "a": "continua.",
+            "b": "positiva.",
+            "c": "categorica."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Nell'algoritmo K-Means un centroide rappresenta…",
+        "answers": {
+            "a": "il valore medio tra i cluster.",
+            "b": "il valore medio tra tutti i dati analizzati.",
+            "c": "il punto medio o baricentro di un cluster."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "L'algoritmo di backpropagation…",
+        "answers": {
+            "a": "richiede un interazione con l'ambiente.",
+            "b": "non richiede dati etichettati.",
+            "c": "viene applicato in presenza di dati etichettati."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Quale delle seguenti è un esempio di stopword?",
+        "answers": {
+            "a": "Un nome di città.",
+            "b": "L'articolo \"il\".",
+            "c": "Un qualsiasi verbo."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Per quali tra queste applicazioni non risulta appropriato l'utilizzo di tecniche di Social Network Analysis?",
+        "answers": {
+            "a": "Realizzare un modello di propagazione di un'epidemia.",
+            "b": "Identificare gruppi di soggetti che effettuano transazioni commerciali tra di loro.",
+            "c": "Analizzare la serie storica delle vendite in relazione ad un insieme di clienti."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Nell'ambito del text mining quale delle seguenti operazioni è frequentemente eseguita nella fase di preprocessing dei testi?",
+        "answers": {
+            "a": "Trasformazione del testo in minuscolo.",
+            "b": "La lettura automatizzata del testo da un'immagine.",
+            "c": "Imputazione dei valori mancanti."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Come si chiama l’applicazione del text mining finalizzata all'analisi delle opinioni sui social network?",
+        "answers": {
+            "a": "Sentiment analysis.",
+            "b": "Social analysis.",
+            "c": "Posts analysis."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Come si misura l’importanza di un nodo in un grafo?",
+        "answers": {
+            "a": "Attraverso misure di densità.",
+            "b": "Attraverso misure di dimensione.",
+            "c": "Attraverso misure di centralità."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Quale delle seguenti affermazioni sulla qualità dei dati è falsa?",
+        "answers": {
+            "a": "Gli aspetti relativi alla qualità non sono mai misurabili in termini quantitativi.",
+            "b": "Le dimensioni di qualità sono definite in appositi standard.",
+            "c": "Accuratezza, completezza e tempestività sono dimensioni di qualità."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Nell'ambito della qualità dei dati, la dimensione di consistenza di un dataset si riferisce…",
+        "answers": {
+            "a": "all'aderenza rispetto a un dizionario di valori predefiniti.",
+            "b": "alla coerenza rispetto ad un insieme di regole semantiche del dominio di riferimento.",
+            "c": "alla percentuale di dati valorizzati rispetto alla popolazione di riferimento."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Quali delle seguenti caratteristiche non attiene alla qualità dei dati?",
+        "answers": {
+            "a": "Distorsione.",
+            "b": "Completezza.",
+            "c": "Consistenza."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Un dataset in cui il 50% dei valori è mancante, è caratterizzato da un basso valore di…",
+        "answers": {
+            "a": "completezza.",
+            "b": "fruibilità.",
+            "c": "consistenza."
+        },
+        "correctAnswer": "c"
+    }
+]
