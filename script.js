@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    loadQuiz1Button.addEventListener('click', () => loadQuestions('domande.json'));
+    loadQuiz1Button.addEventListener('click', () => loadQuestions('domande2.json'));
     loadQuiz2Button.addEventListener('click', () => loadQuestions('domande2.json'));
     loadQuiz3Button.addEventListener('click', () => loadQuestions('domande3.json'));
     submitButton.addEventListener('click', showResults);
