@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block; /* Modificato da block a inline-block per adattarsi al contenuto */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Colore di sfondo aggiunto */
+    color: #fff; /* Colore del testo aggiunto */
+    border: none; /* Rimuove il bordo */
+    border-radius: 20px; /* Bordi arrotondati */
+    transition: background-color 0.3s ease; /* Transizione per il cambio colore al passaggio */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambia colore al passaggio */
+}
+
+/* Quiz styles */
+.question {
+    margin-bottom: 20px; /* Aumentato il margine per una separazione più evidente tra le domande */
+    padding: 10px; /* Aggiunto padding per creare un box intorno alle domande */
+    background-color: #f9f9f9; /* Colore di sfondo per il box delle domande */
+    border: 1px solid #ddd; /* Bordo sottile intorno al box delle domande */
+    border-radius: 8px; /* Bordi arrotondati per il box delle domande */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per il box delle domande */
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Leggermente ridotto per separazione più sottile tra le risposte */
+    cursor: pointer; /* Cambiato il cursore a pointer per indicare l'interattività */
+}
+
+input[type="radio"] {
+    margin-right: 8px; /* Leggermente ridotto per spaziatura più stretta tra radio button e testo */
+    vertical-align: middle; /* Allinea verticalmente con il testo */
+}
+
+.hide-letters {
+    display: none;
+}
+
+/* Results styles */
+#results {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#results h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; /* Colore del testo modificato */
+}
