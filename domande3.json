@@ -51,7 +51,7 @@
             "b": "Solo in R.",
             "c": "Solo in Python."
         },
-        "correctAnswer": "a"
+        "correctAnswer": "b"
     },
     {
         "question": "Quale tra i seguenti è un tipico approccio nella progettazione di un database?",
@@ -195,7 +195,7 @@
             "b": "Dividere i dati in cluster.",
             "c": "Eseguire previsioni."
         },
-        "correctAnswer": "a"
+        "correctAnswer": "c"
     },
     {
         "question": "Per quale applicazione è inadatto un metodo di apprendimento non supervisionato?",
@@ -213,7 +213,7 @@
             "b": "Si.",
             "c": "No. La Cluster Analysis è mutuamente esclusiva."
         },
-        "correctAnswer": "b"
+        "correctAnswer": "c"
     },
     {
         "question": "Quale forma di analisi dei dati stima i coefficienti di un'equazione lineare di una o più variabili indipendenti al fine di predire il valore della variabile dipendente?",
